@@ -4,41 +4,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Transformers</title>
+    <script>
+        $(document).ready(function (){
+            $('.button-abrir').click(function(){
+                $('.navbar').toggleClass('active');
+                $('.navbar-itens').toggleClass('active1');
+                $('.button-abrir').toggleClass('toggle');
+            });
+        });
+    </script>
+        <title>Transformers</title>
+    
 </head>
 
 <body>
     <div class="container">
         <div class="navbar-container">
+            <button class="button-abrir">
+                <span></span>
+            </button>
+
             <nav>
                 <a href="#">
                     <img src="./img/2.png" alt="" class="logo">
                 </a>
+                <section class="navbar ">
+
+                </section>
                 <ul class="navbar-itens">
                     <li>
                         <a href="#">
                             Home
                         </a>
                     </li>
-                    <li>
+                    <li >
                         <a href="#">
                             Autobots
                         </a>
                     </li>
-                    <li>
+                    <li >
                         <a href="#">
                             Decepticons
                         </a>
                     </li>
-                    <li>
+                    <li >
                         <a href="#" class="default-button">
                             Juntar-se
                         </a>
+                    </li>
+                    <li class="button-menu">
+                        <span></span>
                     </li>
                 </ul>
             </nav>
@@ -57,13 +78,13 @@
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem earum officiis </p>
                     </li>
                     <li>
-                        
+
                         <i class="fas fa-hand-rock"></i>
                         <h3>Guerras</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem earum officiis </p>
                     </li>
                     <li>
-                        
+
                         <i class="fas fa-space-shuttle"></i>
                         <h3>Planetas</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem quidem earum officiis </p>
@@ -100,7 +121,7 @@
             </section>
         </main>
         <footer>
-           <p>Desenvolvido por <a href="https://github.com/PauloDiney">Paulo Diney</a></p>
+            <p>Desenvolvido por <a href="https://github.com/PauloDiney">Paulo Diney</a></p>
         </footer>
     </div>
 </body>
