@@ -501,3 +501,21 @@ footer a:hover {
         margin: 0 auto;
     }
 }
+
+/* smartphones a partir de 375px */
+
+@media (max-width: 375px){
+    
+      .main-banner h1 {
+        font-size: 1.5rem;
+        }
+
+        .services-container p{
+            line-height: 25px;
+            padding: 8px 8px;
+        }
+
+
+    
+
+}
