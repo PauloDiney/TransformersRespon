@@ -36,7 +36,7 @@ p {
 
 nav {
     position: relative;
-   
+
 }
 
 .logo {
@@ -86,7 +86,7 @@ nav {
 
 .main-banner {
     background-image: url('./img/1.png');
-    
+
     background-size: cover;
     background-position: center;
     padding: 10rem 0;
@@ -363,13 +363,13 @@ footer a:hover {
 
 /* tablets a partir de 768px */
 
-@media (max-width: 900px ){
-    .movie{
+@media (max-width: 900px) {
+    .movie {
         margin: 10px;
         padding: 10px;
     }
 
-    .services-container p{
+    .services-container p {
         line-height: 25px;
         padding: 10px 10px;
     }
@@ -384,22 +384,22 @@ footer a:hover {
         background: #232a31;
     }
 
-    .search-film h2{
+    .search-film h2 {
         align-items: center;
         margin-left: 50px;
     }
 
-    .search-film p{
+    .search-film p {
         align-items: center;
         margin-left: 50px;
     }
 
-    .search-film form input{
+    .search-film form input {
         align-items: center;
         margin-left: 50px;
     }
 
-    .search-film form button{
+    .search-film form button {
         align-items: center;
         margin-left: 50px;
     }
@@ -408,20 +408,20 @@ footer a:hover {
 
 /* smartphones a partir de 576px */
 
-@media (max-width: 576px){
+@media (max-width: 576px) {
 
     .navbar-itens {
         font-size: 13px;
         margin-left: -11px;
     }
 
-    .navbar-container{
+    .navbar-container {
         padding: 0;
     }
-    
 
-    .logo{
-       
+
+    .logo {
+
         margin-right: -11px;
         width: 60px;
         height: 60px;
@@ -431,7 +431,7 @@ footer a:hover {
         padding: 10px 10px;
     }
 
-    .navbar-itens li{
+    .navbar-itens li {
         margin-left: 1rem;
     }
 
@@ -439,7 +439,7 @@ footer a:hover {
     .main-banner h1 {
         font-size: 2rem;
     }
-    
+
     .movies {
         display: flex;
         flex-wrap: wrap;
@@ -448,37 +448,37 @@ footer a:hover {
         margin: 50px auto 0;
         list-style: none;
     }
-    
+
     .movies ul {
         width: 100%;
         justify-content: center;
         display: flex;
         flex-direction: column;
     }
-    
+
     .movie {
         margin: 60px;
     }
 
-    .services-container ul li{
+    .services-container ul li {
         padding: 10px;
     }
 
-    .search-film h2{
+    .search-film h2 {
         margin: 0 auto;
-        
+
         font-size: 20px;
         letter-spacing: .3rem;
     }
 
-    .search-film p{
+    .search-film p {
         font-size: 16px;
         margin: 0 auto;
-        
+
         letter-spacing: .01rem;
     }
 
-    .search-film form input{
+    .search-film form input {
         width: 80%;
         padding: 10px 15px;
         margin: 10px 0;
@@ -487,7 +487,7 @@ footer a:hover {
         transition: .5s;
     }
 
-    .search-film form button{
+    .search-film form button {
         padding: 10px 15px;
         background-color: firebrick;
         border-radius: 10px;
@@ -504,18 +504,54 @@ footer a:hover {
 
 /* smartphones a partir de 375px */
 
-@media (max-width: 375px){
-    
-      .main-banner h1 {
+@media (max-width: 375px) {
+
+    .main-banner h1 {
         font-size: 1.5rem;
-        }
+    }
 
-        .services-container p{
-            line-height: 25px;
-            padding: 8px 8px;
-        }
+    .services-container p {
+        line-height: 25px;
+        padding: 8px 8px;
+    }
+}
+
+/* smartphones a partir de 320px */
+
+@media (max-width: 320px) {
 
 
-    
+    .services-container p {
+        line-height: 20px;
+        padding: 0;
+    }
 
+    .movie {
+        margin: 50px;
+    }
+
+    .navbar-itens {
+        font-size: 9px;
+        padding: 0;
+    }
+
+    .navbar-container {
+        padding: 0;
+    }
+
+
+    .logo {
+
+        
+        width: 55px;
+        height: 55px;
+    }
+
+    .default-button {
+        padding: 10px 10px;
+    }
+
+    .navbar-itens li {
+        margin-left: 1rem;
+    }
 }
