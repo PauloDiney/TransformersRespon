@@ -326,7 +326,7 @@ footer a:hover {
 
 /* small laptops a partir de 1100px */
 
-@media (max-width: 1100px) {
+@media  (max-width: 1100px) {
     .movie {
         list-style: none;
         margin: 25px;
@@ -370,9 +370,33 @@ footer a:hover {
 
 }
 
+/* laptops a partir de 1024px */
+
+@media (max-width: 1024px){
+    .main-banner  h1{
+        top: 16vh;
+    }
+
+    .main-banner p{
+        top: 13vh;
+    }
+}
+
+/* laptops a partir de 820px */
+
+@media (max-width: 820px){
+    .main-banner  h1{
+        top: 18vh;
+    }
+
+    .main-banner p{
+        top: 15vh;
+    }
+}
+
 /* tablets a partir de 768px */
 
-@media (max-width: 768px) {
+@media  (max-width: 768px) {
     .movie {
         margin: 10px;
         padding: 10px;
@@ -425,7 +449,7 @@ footer a:hover {
 
 /* smartphones a partir de 576px */
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
 
     .navbar{
         display: flex;
@@ -538,8 +562,6 @@ footer a:hover {
         width: 100%;
     }
 
-
-
     .logo {
         position: absolute;
         top: 0;
@@ -548,11 +570,6 @@ footer a:hover {
         height: 80px;
        
     }
-
-    
-
-
-    
 
     .default-button {
         padding: 10px 10px;
@@ -634,9 +651,17 @@ footer a:hover {
     }
 }
 
+/* smartphones a partir de 540px */
+
+@media (max-width: 540px){
+    .main-banner h1{
+        top: 27vh;
+    }
+}
+
 /* smartphones a partir de 375px */
 
-@media (max-width: 375px) {
+@media screen and (max-width: 375px) {
    
 
     .main-banner h1 {
@@ -771,9 +796,13 @@ footer a:hover {
     }
 }
 
+/* smartphones a partir de 344px */
+
+
+
 /* smartphones a partir de 320px */
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
 
     .main-banner h1 {
       padding: 0;
@@ -918,5 +947,58 @@ footer a:hover {
 
     .navbar-itens li {
         margin-left: 1rem;
+    }
+}
+
+/* smartphones a partir de 390px */
+
+@media (max-width: 390px){
+    .main-banner h1{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+@media (max-width: 360px){
+    .main-banner h1 { 
+        top: 30vh;
+    }
+
+    .main-banner p {
+        top: 27vh;
+        font-size: 1rem;
+    }
+
+    .services-container ul li{
+        padding: 1px;
+    }
+}
+
+/* smartphones a partir de 280px */
+@media  (max-width: 280px) {
+    .main-banner h1 {
+        font-size: 1rem;
+    }
+
+    .main-banner p{
+        font-size: 1rem;
+    }
+
+    .services-container ul li{
+        padding: 1px;
+    }
+
+    .best-moveis h2{
+        letter-spacing: .3rem;
+    }
+
+    .best-moveis p{
+        padding: 10px;
+    }
+
+    .movie{
+        margin: 10px;
     }
 }
