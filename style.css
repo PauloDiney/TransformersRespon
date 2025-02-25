@@ -342,7 +342,7 @@ footer a:hover {
     .main-banner h1 {
         font-size: 3rem;
         position: relative;
-        top: 45vh;
+        top: 13vh;
         padding: 10px;
         text-align: center;
         letter-spacing: .5rem;
@@ -352,7 +352,7 @@ footer a:hover {
     .main-banner p {
         font-size: 2rem;
         position: relative;
-        top: 38vh;
+        top: 11vh;
         padding: 10px;
         text-align: center;
         letter-spacing: .1rem;
@@ -372,6 +372,14 @@ footer a:hover {
     .services-container p {
         line-height: 25px;
         padding: 10px 10px;
+    }
+
+    .main-banner h1{
+       top: 17vh;
+    }
+
+    .main-banner p{
+        top: 15vh;
     }
 
     .search-film {
@@ -438,6 +446,13 @@ footer a:hover {
 
     .main-banner h1 {
         font-size: 2rem;
+        top: 25vh;
+
+    }
+
+    .main-banner p {
+        font-size: 1.5rem;
+        top: 23vh;
     }
 
     .movies {
