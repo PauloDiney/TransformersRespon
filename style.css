@@ -372,15 +372,7 @@ footer a:hover {
 
 /* laptops a partir de 1024px */
 
-@media (max-width: 1024px){
-    .main-banner  h1{
-        top: 16vh;
-    }
 
-    .main-banner p{
-        top: 13vh;
-    }
-}
 
 /* laptops a partir de 820px */
 
@@ -655,7 +647,7 @@ footer a:hover {
 
 @media (max-width: 540px){
     .main-banner h1{
-        top: 27vh;
+        top: 25vh;
     }
 }
 
@@ -663,9 +655,9 @@ footer a:hover {
 
 @media screen and (max-width: 375px) {
    
-
     .main-banner h1 {
         font-size: 1.5rem;
+        top: 28vh;
     }
 
     .navbar{
@@ -958,16 +950,13 @@ footer a:hover {
     }
 }
 
-
-
-
 @media (max-width: 360px){
-    .main-banner h1 { 
-        top: 30vh;
+    
+    .movie{
+        margin: 40px;
     }
-
     .main-banner p {
-        top: 27vh;
+       
         font-size: 1rem;
     }
 
